@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1.5em;
+  font-family: 'Roboto Mono', monospace;}
+
+header{
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+/* navbar */
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 15px;
+    word-spacing: 50px;
+    letter-spacing: 4px;
+}
+
+li{
+  display: inline-block;
+  position: relative;
+}
+
+.navbar a{
+  color: blue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 5px 20px;
+  padding: 25px 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu{
+width: 70%;
+margin: auto;
+text-align: center;
+font-size: 30px;
+display: none;
+}
+
+input[type=checkbox] {display:none}
+
+
+/* home*/
+body {
+    text-align: center;
+    width: 100%;
+    line-height: 2.5em; /*Imposta l'altezza della linea per diversi elementi <div>*/
+    margin: auto;
+    background-color:rgb(0,0,0);
+}
+
+#titolo{
+  text-align: center;
+  color: rgb(0, 164, 255);
+  font-size: 4em;
+  margin-top: 1.5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.b{
+  text-align: left;
+  box-shadow: 3px 3px 12px black;
+  background-color: #80bfff;
+  }
+
+.b p{
+  padding: 4% 4%;
+  font-size: 1.2em;
+  color: black;
+}
+
+.b cite{font-size: 17px;}
+
+.storia1{
+  -webkit-border-top-left-radius: 45px;
+  -webkit-border-bottom-right-radius: 55px;
+  -moz-border-radius-topleft: 45px;
+  -moz-border-radius-bottomright: 55px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width:67%;
+  margin-left: 0;
+}
+
+.storia2{
+  -webkit-border-top-left-radius: 45px;
+  -webkit-border-bottom-right-radius: 55px;
+  -moz-border-radius-topleft: 45px;
+  -moz-border-radius-bottomright: 55px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width:67%;
+  margin-left: 33%;
+}
+
+.citazione{
+  width: 67%;
+  margin-left: 15%;
+  -webkit-border-top-left-radius: 40px;
+  -webkit-border-bottom-right-radius: 50px;
+  -moz-border-radius-topleft: 40px;
+  -moz-border-radius-bottomright: 0px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  text-align: center;
+}
+
+.tre p a{
+  color:black;
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+/* protagonisti*/
+h4{
+  font-size: 1.6em;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px blue;
+  text-transform: uppercase;
+}
+.foto {
+  width: 100%;
+  padding-top: 15%;
+  height: 80%;
+  box-shadow: 10px 10px 10px red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top-left-radius:     90px;
+  border-top-right-radius:    90px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius:  90px;
+  border:1px solid Tomato;
+}
+
+.contenuto{
+  color: white;
+  margin-right: 15px;
+  margin-left: 1%;
+  margin-top: -5%;
+  text-align: left;
+  width: 98%;
+}
+
+.descrizione{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 110%;
+    margin-left: 40%;
+    text-align: left;
+    margin-top: -7em;
+}
+
+#main1 {
+	float: left ;
+	box-sizing: border-box;
+	width: 40%;
+	height: 350px;
+	background-image:url("ar.png") ;
+	background-size: contain, cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  margin-top: 5em;
+  border-style:solid;
+  border-width:5px;
+  border-color:red;
+
+}
+
+#main2 {
+	float: right;
+	box-sizing: border-box;
+	width: 40%;
+	height: 350px;
+	background-image:url("ju.png");
+	background-position: center ;
+	background-size: contain, cover;
+	background-repeat: no-repeat;
+  margin-top: 0;
+  border-style:solid;
+  border-width:5px;
+  border-color:red;
+}
+
+#main3 {
+	float: left ;
+	box-sizing: border-box;
+	width: 40%;
+	height: 350px;
+    background-image:url("be.png");
+    background-position: center ;
+   background-size: contain, cover;
+	background-repeat: no-repeat;
+  margin-top: 5em;
+  border-style:solid;
+  border-width:5px;
+  border-color:red;
+}
+
+#main4 {
+	float: right;
+	box-sizing: border-box;
+	width: 40%;
+	height: 350px;
+    background-image:url("ve.png");
+    background-position: center ;
+	background-size: contain, cover;
+    background-repeat: no-repeat;
+    margin-top: 5em;
+    border-style:solid;
+    border-width:5px;
+    border-color:red;
+}
+
+#main5 {
+	float: left ;
+	box-sizing: border-box;
+	width: 40%;
+	height: 350px;
+  background-image:url("ce.png");
+  background-position: center;
+	background-size: contain, cover;
+  background-repeat: no-repeat;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  margin-left: 23em;
+  margin-right: 12em;
+  border-style:solid;
+  border-width:5px;
+  border-color:red;
+}
+
+#main1:hover .overlay {
+  opacity: 1;
+}
+
+#main2:hover .overlay {
+  opacity: 1;
+}
+
+#main3:hover .overlay {
+  opacity: 1;
+}
+
+#main4:hover .overlay {
+  opacity: 1;
+}
+
+#main5:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+  transition : 1s;
+	background-color: white;
+	float: left;
+}
+
+.text {
+	color: black;
+	font-size: 30px;
+	font-family: 'Roboto Mono', monospace;
+	position: relative;
+	top: 45%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	float: left;
+}
+
+.torna a p{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+
+/* stagioni */
+h1{
+  color: white;
+  font-size: 2em;
+  margin-top: 3em;
+}
+.season {
+  width: 100%;
+  padding-top: 15%;
+  height: 80%;
+  box-shadow: 10px 10px 10px red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top-left-radius:     90px;
+  border-top-right-radius:    90px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius:  90px;
+  border:1px solid Tomato;
+}
+
+.description{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 110%;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -8em;
+    margin-bottom: 2em;
+}
+
+/* quiz */
+h2{
+  color: white;
+  font-size: 2em;
+  margin-top: 3em;
+}
+
+.style{
+ width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 80%;
+  box-shadow: 10px 10px 10px red;
+  border-top-left-radius:     90px;
+  border-top-right-radius:    90px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius:  90px;
+  border:1px solid Tomato;
+}
+
+#numeroDomanda{
+  font-size: 1em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+#testoDomanda{
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+#testoRisposta0{
+  font-size: 1.4em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+#testoRisposta1{
+  font-size: 1.4em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+#testoRisposta2{
+  font-size: 1.4em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+#avanti{
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+  padding: 2% 2%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid green;
+  margin-top: 2%;
+}
+#inizia{
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+  padding: 2% 2%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid blue;
+  margin-top: 2%;
+}
+#risultato{
+  font-size: 1.7em;
+  color: white;
+  font-family: 'Roboto Mono', monospace;}
+
+/* about */
+.me{
+  color: white;
+  font-family: 'Roboto Mono', monospace;;
+  text-shadow: 1.5px 1.5px red;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.fonti{
+  color: white;
+  font-family: 'Roboto Mono', monospace;;
+  font-size: 1.2em;
+  text-align: left;
+  text-shadow: 1.5px 1.5px green;
+  width: 100%;
+  margin-top: 3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 15px;
+  height: 80%;
+  box-shadow: 10px 10px 10px 10px red;
+  border-top-left-radius:     60px;
+  border-top-right-radius:    60px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius:  60px;
+  border:1.3px solid Tomato;
+}
+
+.fonti a{
+  color: #FF1493;
+}
+
+h3{
+  color: white;
+  font-size: 1.8em;
+  font-family: 'Roboto Mono', monospace;;
+}
+
+p{
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Mono', monospace;;
+  margin-top: 1.7em;
+  text-shadow: 1.5px 1.5px green;
+}
+p a{
+  color:#FF1493;
+}
+
+/*
+/* media queries */
+/*@media screen and (min-width: 1400px){
+  /*home*/
+ /*#titolo{font-size: 50px;}
+
+  /*stagioni*/
+/* .description{font-size: 16px;}
+
+  /*protagonisti*/
+/* .descrizione h4{
+   font-size: 20px;
+   margin-top: 35px;}
+  #main5{
+     margin-left: 30%;
+     margin-right: 25%;
+     font-size: 11px;
+     height: 320px;}
+
+   /*quiz*/
+ /*#testoDomanda{font-size: 23px;}
+ #testoRisposta0{font-size:20px;}
+ #testoRisposta1{font-size: 20px;}
+ #testoRisposta2{font-size: 20px;}
+
+   /*about*/
+ /*.me{font-size: 25px;}
+ .fonti{font-size: 20px;}
+ .fonti h3{font-size: 22px;}
+  p{font-size: 20px;}
+}
+
+@media screen and (max-width: 1100px){
+  /*protagonisti*/
+/*  #main5{
+     margin-left: 30%;
+     margin-right: 25%;
+     font-size: 11px;
+     height: 320px;}
+  #main1,#main2,#main3,#main4,#main5{height: 370px;}
+
+  .foto img{margin-left: 200px;}
+  .descrizione{margin-top: 28em;
+  margin-left: 50px;}
+  .descrizione h4{
+     margin-top: 40px;
+     margin-left: 200px;}
+
+  /*stagioni*/
+/*   .description{font-size: 12px;}
+
+  /*quiz*/
+  /*   #testoDomanda{font-size: 20px;}
+     #testoRisposta0{font-size: 18px;}
+     #testoRisposta1{font-size: 18px;}
+     #testoRisposta2{font-size: 18px;}
+}
+
+@media screen and (max-width: 1024px){
+  /*navbar*/
+/*  .navbar li, .navbar li a, ul li a{font-size: 20px;}
+
+  /*protagonisti*/
+/*  #main5{
+      margin-left: 30%;
+      margin-right: 25%;
+      font-size: 11px;
+      height: 350px;}
+  #main1,#main2,#main3,#main4,#main5{height: 350px;}
+  .foto img{margin-left: 200px;}
+  .descrizione{margin-top: 28em;
+  margin-left: 50px;}
+  .descrizione h4{
+  margin-top: 40px;
+  margin-left: 200px;}
+
+  /*stagioni*/
+/*  .description{font-size: 10px;}
+
+  /*quiz*/
+/*  #testoDomanda{font-size: 18px;}
+  #testoRisposta0{font-size: 16px;}
+  #testoRisposta1{font-size: 16px;}
+  #testoRisposta2{font-size: 16px;}
+  }
+
+@media screen and (max-width: 880px){
+  /*protagonisti*/
+/*  .foto img{margin-left: 160px;}
+
+  /*about*/
+/*  .me{margin-top: 30px;}
+  .fonti{font-size: 17px;}
+}
+
+@media screen and (max-width: 768px){
+  /*navbar*/
+/*  .navbar{
+  border-radius: 0;
+  -moz-border-radius: 0; /*mozilla*/
+/*  -webkit-border-radius: 0; /**safari, crome/
+
+  /*home*/
+/*  #titolo{font-size: 45px;}
+
+ /*protagonisti*/
+ /*.foto img{margin-left: 80px;}
+  #main5{
+  margin-left: 30%;
+  margin-right: 25%;
+  font-size: 11px;
+  height: 320px;}
+  #main1,#main2,#main3,#main4,#main5{height: 220px;}
+  .descrizione{ margin-left: 16%;
+    margin-right: 20%;
+    font-size:20px;}
+  .descrizione h4{margin-left: 70px;}
+
+  /*stagioni*/
+/*  .description{font-size: 10px;}
+
+  /*quiz*/
+/*  #testoDomanda{font-size: 18px;}
+  #testoRisposta0{font-size: 17px;}
+  #testoRisposta1{font-size: 17px;}
+  #testoRisposta2{font-size: 17px;}
+
+  /*about*/
+/*  .me{font-size: 20px;}
+  .fonti{font-size: 15px;}
+  .fonti h3{font-size: 20px;}
+  p{font-size: 18px;}
+}

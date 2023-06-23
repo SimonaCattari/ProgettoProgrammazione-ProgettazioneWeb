@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>RIVERDALE</title>
+<link rel="stylesheet" href="style.css" />
+<script src="quiz.js"></script>
+</head>
+<body id="quiz">
+<nav>
+  <label for="menu" class="menu">&#9783;</label>
+  <input type="checkbox" id="menu" role="button">
+  <ul class="navbar stile">
+    <li><a class="active" href="index.html">HOME</a></li>
+    <li><a href="protagonisti.html">PROTAGONISTI</a></li>
+    <li><a href="stagioni.html">STAGIONI</a></li>
+    <li><a href="quiz.html">QUIZ</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+  </ul>
+</nav>
+  <h2>Testa le tue conoscenze sulla serie tv con questo quiz!</h2>
+  <div class="style">
+    <span id="numeroDomanda"></span>
+    <br/>
+    <span id="testoDomanda"></span>
+    <br/>
+    <input type="radio" name="risposte" id="risposta0"/>
+    <span id="testoRisposta0"></span>
+    <br/>
+    <input type="radio" name="risposte" id="risposta1"/>
+    <span id="testoRisposta1"></span>
+    <br/>
+    <input type="radio" name="risposte" id="risposta2"/>
+    <span id="testoRisposta2"></span>
+    <br/>
+  </div>
+  <div class="fine">
+  <input type="button" value="AVANTI" id="avanti" />
+  <input type="button" value="RESTART" id="inizia" />
+  <br/>
+  <span id="risultato"></span>
+  <br/>
+</div>
+</body>
+</html>
